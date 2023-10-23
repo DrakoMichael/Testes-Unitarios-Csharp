@@ -12,18 +12,31 @@ public class CalculadoraTests
         _calc = new CalculadoraImp();
     }
 
+
     [Fact]
-    public void DeveSomar5Com10Retornar15()
+    public void DeveSomar10c10Retornar20()
     {
         //Arrange
-        int num1 = 5;
+        int num1 = 10;
         int num2 = 10;
 
         //Act
         int resultado = _calc.Somar(num1, num2);
 
         //Assert
-        Assert.Equal(15, resultado);
+        Assert.Equal(20, resultado);
 
     }
+    [Fact]
+    public void DeveVerificarSe4ehParEretornarVerdadeiro()
+    {
+        //Arrange
+        int numero = 4;
+        //Act
+        bool resultado = _calc.EhPar(numero);
+        //Assert
+        Assert.True(resultado);
+
+    }
+
 }

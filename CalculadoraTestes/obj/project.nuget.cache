@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1pXyjAHk6bJZUF6zBHOi2jqc7lr8+xc3Mx53dM70czzIi/mYBKpTEMaxZEYqPUjgi1Qr+BwMElsmUon+Unt4Hg==",
+  "dgSpecHash": "a4wKscIBVL2l0bHrmB73frY+TKyEK5nrflVSFJctfORX/S/Snt13X7SV3VQbqLmJZJvuPPxLbfsPYnd6aW6PWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dakto\\OneDrive\\Documentos\\GitHub\\Testes-Unitarios-Csharp\\calculadoraTestes\\CalculadoraTestes.csproj",
+  "projectFilePath": "C:\\Users\\dakto\\OneDrive\\Documentos\\GitHub\\Testes-Unitarios-Csharp\\CalculadoraTestes\\CalculadoraTestes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dakto\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\dakto\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",
