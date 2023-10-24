@@ -39,4 +39,20 @@ public class CalculadoraTests
 
     }
 
+    [Theory]
+    [InlineData(new int[] {2, 4})]
+    [InlineData(new int[] {6, 8, 3})]
+    public void DeveVerificarSeOsNumerosSaoParesERetornarVerdadeiro(int[] numeros)
+    {
+        //act /assert
+
+        //Exemplo em ForEach
+        // foreach (var item in numeros)
+        // {
+        //     Assert.True(_calc.EhPar(item));
+        // }
+        
+        //Maneira alternativa
+        Assert.All(numeros, num => Assert.True(_calc.EhPar(num)));
+    }
 }
